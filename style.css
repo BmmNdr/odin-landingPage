@@ -11,7 +11,7 @@ a {
 #first-container {
     background-color: #1f2937;
     width: 100%;
-    height: 25%;
+    height: 550px;
     color: white;
 }
 
@@ -28,11 +28,14 @@ a {
 }
 
 #header-logo {
-    text-align: center;
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 700;
-    padding-top: 1%;
+    align-items: center;
+}
+
+#header-logo img{
+    padding-left: 300px;
+    padding-top: 10px;
+    height: 50px;
+    width: 100px;
 }
 
 #header-links {
@@ -73,7 +76,7 @@ a {
     align-self: center;
 }
 
-#welcome-text button {
+#welcome-text button, #welcome-text a{
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3882f6;
@@ -84,8 +87,8 @@ a {
 }
 
 #welcome-image img{
-    width: 100%;
-    height: 80%;
+    width: 700px;
+    height: 400px;
 }
 
 
@@ -110,8 +113,9 @@ a {
 }
 
 #second-container img{
-    width: 70%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 20px;
     border: solid 5px blue;
+    
 }
