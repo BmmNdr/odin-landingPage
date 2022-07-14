@@ -7,13 +7,15 @@ a {
     text-decoration: none;
 }
 
+/*  <!--Firs Part-->  */
 #first-container {
     background-color: #1f2937;
     width: 100%;
-    height: 500px;
+    height: 25%;
     color: white;
 }
 
+/*  <!--Header Bar-->  */
 #header-bar {
     display: flex;
     justify-content:space-evenly;
@@ -45,6 +47,8 @@ a {
     padding-left: 5%;
 }
 
+
+/*  <!--Welcome + Image-->  */
 #welcome {
     display: flex;
     justify-content: space-evenly;
@@ -60,11 +64,13 @@ a {
 #welcome-text strong {
     font-size: 48px;
     color: #f9faf8;
+    align-self: center;
 }
 
 #welcome-text p {
     font-size: 18px;
     color: #e5e7eb;
+    align-self: center;
 }
 
 #welcome-text button {
@@ -78,6 +84,34 @@ a {
 }
 
 #welcome-image img{
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 80%;
+}
+
+
+/*  <!--Second Part-->  */
+#second-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#second-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: 25%;
+    padding: 15px;
+}
+
+#second-container img{
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 5px blue;
 }
