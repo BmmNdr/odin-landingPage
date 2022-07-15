@@ -58,6 +58,10 @@ a {
     padding-top: 3%;
 }
 
+#welcome *{
+    flex: 1;
+}
+
 #welcome-text {
     display: flex;
     flex-direction: column;
